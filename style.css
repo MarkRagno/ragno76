@@ -1,0 +1,88 @@
+/************ RESET ***********/
+/* html5doctor.com Reset v1.6.1 (http://html5doctor.com/html-5-reset-stylesheet/) - http://cssreset.com */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}
+ins{background-color:#ff9;color:#000;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+
+/************ PAGE ***********/
+div.page {
+    width: 100%;
+    background-color: gray;
+    height: 100vh;
+    margin:0 auto;
+    text-align: center;
+    position: relative;
+    line-height: 1.5;
+}
+h1 {
+    font-family: 'Lobster';
+    font-size: 50px;
+}
+h2, a {
+    font-family: 'Lustria';
+    font-size: 35px;
+}
+p {
+    font-family: 'Lato';
+    font-size: 20px;
+}
+/************ HEADER ***********/
+header {
+    min-height: 20px;
+    background-color: red;
+    padding:5px;
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    z-index: 1;
+}
+div.name {
+    float: left;
+    margin: 0 100px;
+}
+nav a {
+    padding:0 40px;
+    color: white;
+    font-size: 25px;
+}
+/************ PROJECTS ***********/
+div.projects {
+    min-height: 100vh;
+    background-color: turquoise;
+}
+/************ SKILLS ***********/
+div.skills {
+    min-height: 700px;
+    background-color: yellow;
+    position: relative;
+    
+}
+div.content {
+    width: 60%;
+    margin:0 auto;
+    position: absolute;
+    top:25%;
+    left: 20%;
+}
+/************ CONTACT ***********/
+div.contact {
+    min-height: 200px;
+    background-color: pink;
+    color:white;
+    border-bottom: 20px solid black;
+}
+
+
+
