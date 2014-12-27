@@ -4,48 +4,93 @@
     <meta charset="UTF-8">
     <title>Mark Ragno Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link href='http://fonts.googleapis.com/css?family=Lustria|Lato:400,700|Lobster' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lustria|Ubuntu+Mono|Lato:400,700|Arvo|Ubuntu:400,500,700|Josefin+Sans|Lobster|Josefin+Slab|Abril+Fatface|Vollkorn' rel='stylesheet' type='text/css'>
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <link rel="text/javascript" href="main.js">
 </head>
 <body>
     <div class="page" id="home">
-        
-        <header>
-            <div class="name"><h1>Mark P Ragno</h1></div>
-            <nav>
-                <!-- <a href="#home">HOME</a> -->
-                <a href="#projects">PROJECTS</a>
-                <a href="#skills">SKILLS</a>
-                <a href="#contact">CONTACT</a>
-            </nav>
-        </header>
-
-        <div class="projects" id="projects">
-            <h1>PROJECTS</h1>
-            <div class="project"></div>
-            <div class="project"></div>
-            <div class="project"></div>
-            <div class="project"></div>
-            
+        <div class="name">
+            <h1>Mark</h1>
+            <h1>Ragno</h1>
+            <p>[ron-yo]</p>
+<!--             <ul>
+                <li>Italian for "spider"</li>
+                <li>BiCentennial Baby</li>
+                <li>Oldest of 5</li>
+            </ul> -->
         </div>
-
-        <div class="skills" id="skills">
-            <h1>SKILLS</h1>
-            <div class="content">
-                <p>Having only very recently started in web development, I know my skills have a long way to go - and I am looking forward to that journey!</p>
-                <p>I dove in head first by starting with a 9-5, 12-week, fully immersive bootcamp designed to do one thing:  turn me into a web developer.</p>
-                <p>I will admit - it was one of the hardest things I've ever done.  But 1000% worth it.</p>
-                <p>So much information was covered in such a short time span - my brain is still reeling.  Topics from PHP, HTML5, CSS3, JavaScript, Git, MVC Frameworks, to you name it - we either dove in or at least talked about it.</p>
-                <p>And while I am a novice, my confidence grows daily as I continue the disciplined learning on my own time.</p>
-                <p>I am looking forward to my new career and can't wait to learn more!</p>
+        <div class="verticalnav">
+            <nav>
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#projects">PROJECTS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="hero" id="home">
+            <p>“Life is either a daring adventure - or nothing at all.”  ~ Helen Keller</p>
+            <div class="intro section">
+                <div class="introcontent">
+                    <p>I just left a career I was in for over 12 years to become a web developer.
+                        <br> 
+                    I'm now on a mission to learn <em>everything</em> about it.</p>
+                </div>
+            </div>
+            <div class="myphoto">
             </div>
         </div>
-
-        <div class="contact" id="contact">
-            <h1>CONTACT ME</h1>
-            <h2>401~391~7500</h2>
-            <h2>mark@ragno76.com</h2>
+        <div class="maincontent">
+            <div class="skills section">
+                    
+                <div class="skillcontent"  id="skills">
+                    <h1 class="mainheader">SKILLS</h1>
+                    <p>My adventure started at a boot camp that taught: 
+                        <br>
+                    <span class="emphasis">PHP, HTML5, CSS3, Unix, JavaScript, MySQL, Apache, Git, MVC, Virtual Hosting, Responsive Design, SASS, Jekyll, Handlebars...</span>
+                        <br>
+                     you name it - we were discussing it and/or trying it.</p>
+                        <br>
+                    <p>During that time, I found that I learned the most from creating projects.</p>
+                </div>
+            </div>
         </div>
-
+        <div class="middle">
+            <div class="projects section" id="projects">
+                <h1 class="mainheader">PROJECTS</h1>
+                <div class="project a">
+                    <!-- <img src="kalquelordSS.png" alt=""> -->
+                    <div class="projectdescrip">
+                        <h2>Individual</h2>
+                    </div>
+                </div>
+                <div class="project b">
+                    <div class="projectdescrip">
+                        <h2>Combined</h2>
+                    </div>
+                </div>
+                <div class="project c">
+                    <div class="projectdescrip">
+                        <h2>Non-Profit</h2>
+                    </div>
+                </div>
+                <div class="project d">
+                    <div class="projectdescrip">
+                        <h2>Milestone</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact section" id="contact">
+            <div class="contactinfo">
+                <h1 class="mainheader">Contact</h1>
+                <h2><a href="mailto:mark@ragno76.com">mark@ragno76.com</a></h2>
+                <h2><a href="https://github.com/MarkRagno">github.com/MarkRagno</a></h2>
+            </div>
+        </div>
     </div>
 </body>
 </html>
