@@ -35,7 +35,8 @@ h2, a {
     font-family: 'Ubuntu',sans-serif;
     font-weight: 400;
     font-size: 40px;
-    color: #233B47;
+    /*color: #233B47;*/
+    color: #E8B62A;
 }
 p {
     font-family: 'Ubuntu'sans-serif;
@@ -74,12 +75,13 @@ nav li {
 }
 nav a {
     color: #DEE5D8;
+    /*color: #E8B62A;*/
     font-weight: bold;
     text-decoration: none;
     font-size: 25px;
 }
 nav a:hover {
-    color: #29ABA4;
+    color: #E8B62A;
 }
 /************ ABOUT ME ***********/
 div.hero {
