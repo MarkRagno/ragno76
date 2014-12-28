@@ -1,0 +1,20 @@
+{
+  "name": "ragno76",
+  "version": "0.0.0",
+  "homepage": "https://github.com/MarkRagno/ragno76",
+  "authors": [
+    "Mark Ragno <mark@ragno76.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery.transit": "~0.9.12",
+    "jquery": "~2.1.3"
+  }
+}
