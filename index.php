@@ -46,7 +46,7 @@
                     <h1 class="mainheader">SKILLS</h1>
                     <p>The adventure started at an awesome boot camp where I was submersed in: 
                         <br>
-                    <span class="emphasis">PHP, HTML5, CSS3, Unix, JavaScript, MySQL, Apache, Git, MVC, ReptileForms, Bower, NPM, AJAX, JSON, Virtual Hosting, Responsive Design, SASS, Jekyll, Handlebars...</span>
+                    <span class="emphasis">PHP, HTML5, CSS3, Unix, JavaScript, jQuery, MySQL, Apache, Git, MVC, ReptileForms, Bower, NPM, Modernizr, AJAX, JSON, Virtual Hosting, Responsive Design, SASS, Jekyll, Handlebars...</span>
                         <br>
                      you name it - we were discussing it and/or trying it.</p>
                         <br>
